@@ -16,7 +16,7 @@
 :root {
     /* --------------FONT-SIZE-------------- */
 
-    --fs-xl: 36px;
+    --fs-xl: 34px;
     --fs-lg: 28px;
     --fs-md: 20px;
     --fs-sm: 14px;
@@ -238,13 +238,11 @@
 }
 
 .scale_on_hover {
-    transition: all .4s linear;
+
     object-fit: cover;
 }
 
-.scale_on_hover:hover {
-    transform: scale(1.1);
-}
+
 
 .griditem_1 {
     grid-row: 1/2;
@@ -323,7 +321,7 @@
 }
 
 .show_bg {
-    Width: 90px;
+    min-Width: 90px;
     Height: 62px;
 
     background: rgba(45, 60, 174, 0.53);
@@ -355,7 +353,7 @@
         height: 100vh;
         align-items: center;
         justify-content: center;
-        background-color:var(--color-white);
+        background-color: var(--color-white);
 
         opacity: 0;
         pointer-events: none;
@@ -416,11 +414,11 @@
     :root {
         /* --------------FONT-SIZE-------------- */
 
-        --fs-xl: 48px;
+        --fs-xl: 45px;
         --fs-lg: 36px;
         --fs-md: 20px;
         --fs-sm: 16px;
-        --fs-xsm: 14px;
+        --fs-sm: 14px;
 
         /* --------------COLORS-------------- */
         --color-blue: #2C49FE;
